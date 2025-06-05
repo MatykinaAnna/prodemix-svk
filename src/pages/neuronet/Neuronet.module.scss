@@ -1,0 +1,40 @@
+.datePickerWrapper{
+    display: flex;
+}
+
+.filters{
+    display: flex;
+}
+
+.dropdawn1{
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.btn_show{
+    background-color: #8EC136;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border: 1px solid #567520;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 16px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.wrapperBody{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.manual{
+    text-align: center;
+    height: 60vh;
+    padding-top: 20vh;
+}

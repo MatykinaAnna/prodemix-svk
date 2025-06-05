@@ -1,0 +1,126 @@
+button{
+    font-family: "PT Sans", serif;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+
+    // object {
+    //     margin-right: 6px;
+    // }
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+}
+
+.btnRow{
+    display: flex;
+    justify-content: end;
+}
+
+button.btnBorder{
+    border: 1px solid gray;
+
+}
+button.btnGreen{
+    background-color: #8EC136;
+    color: white
+}
+
+.btnSave{
+    padding: 0;
+    .downloadLane{
+        background-color: rgb(127 193 247);
+        height: 32px;
+        width: 103px;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 5;
+        // display: flex;
+        // align-items: center;
+        
+        
+    }
+    img{
+        height: 20px;
+        margin-left: 10px;
+        z-index: 10;
+    }
+    span{
+        margin-right: 10px;
+        z-index: 10;
+    }
+}
+
+
+.hide{
+    display: none;
+}
+
+.active{
+    display: block !important;
+}
+
+.addVideoWrapperBg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(83, 83, 83, 0.185);
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.addVideoWrapper{
+    position: absolute;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: solid #8EC136;
+    background-color: white;
+    width: 580px;
+    height: 370px;
+    left: 33%;
+    top: 25%;
+    z-index: 200;
+}
+
+.bgPreloader{
+    background: #6e7074;
+    opacity: .3;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.preloader{
+    z-index: 1100;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+
+.winConferm{
+    width: 400px;
+    min-height: 50px;
+    background-color: #bae66f;
+    color: black;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+    border: solid 8EC136 1px;
+    padding: 15px;
+    box-sizing: border-box;
+}

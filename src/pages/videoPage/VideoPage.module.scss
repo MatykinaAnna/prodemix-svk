@@ -1,0 +1,83 @@
+.wrapper{
+    display: flex;
+}
+.commentsWrapper{
+    flex-grow: 1;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 65vh;
+    overflow-y: auto;
+}
+.newCommet{
+    height: 150px;
+    border: 1px solid #872434;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-top: 4px;
+    margin-left: 30px;
+
+    .text{
+        flex-grow: 1;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        height: 30px;
+        .time{
+            cursor: pointer;
+            color: #872434;
+            margin-top: 8px;
+        }
+    }
+}
+.commet{
+    min-height: 100px;
+    max-height: 150px;
+    width: 100%;
+    border: 1px solid #872434;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+
+    .text{
+        flex-grow: 1;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+
+        
+
+        .time{
+            cursor: pointer;
+            color: #872434;
+        }
+    }
+}
+
+.clickedComment{
+    background-color: #e9c0c7;
+}
+
+.btn_send{
+    width: 35px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-image: url(../../shared/icons/strelka_vpravo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #872434;
+    cursor: pointer;
+}

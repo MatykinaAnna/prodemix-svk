@@ -1,0 +1,59 @@
+.wrapper{
+    display: flex;
+    background-color: #872434;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    
+    max-height: 71px;
+    height: 7vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .textHeader{
+        font-family: "Comfortaa", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 1.5em;
+    }
+
+    .text{
+        font-family: "Comfortaa", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 0.9em;
+    }
+}
+
+.right{
+    display: flex;
+    color: white;
+
+    button{
+        color: white;
+        
+    }
+
+}
+button.btnGreen{
+    background-color: #8EC136;
+    padding: 4px 10px;
+    margin-top: 6px;
+}
+
+.btnLogout{
+    background-image: url('../../../shared/icons/icon\ _exit.svg');
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    margin-right: 10px;
+}

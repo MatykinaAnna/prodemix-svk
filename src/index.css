@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Comfortaa", sans-serif;
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
+
+button{
+  font-family: "Comfortaa", sans-serif;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.03);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.CalendarDay__selected,
+.CalendarDay__selected:active,
+.CalendarDay__selected:hover {
+  background: #872434 !important;
+
+  border: 1px double #872434 !important;
+  color: #fff
+}
+
+.CalendarDay__selected_span {
+  background: #c26171 !important;
+  border: 1px double #c26171 !important;
+  color: #fff
+}
+
+.CalendarDay__selected_span:active,
+.CalendarDay__selected_span:hover {
+  background: #872434 !important;
+  border: 1px double #872434 !important;
+  color: #fff
+}
+
+.CalendarDay__selected_span {
+  background: #c26171 !important;
+  border: 1px double #c26171 !important;
+  color: #fff
+}
+
+.CalendarDay__hovered_span,
+.CalendarDay__hovered_span:hover {
+  background: #df939f !important;
+  border: 1px double #c26171 !important;
+  color: #872434 !important;
+}
+.CalendarDay__hovered_span:active {
+  background: #df939f !important;
+  border: 1px double #df939f !important;
+  color: #872434 !important;
+}
+
+.DateRangePickerInput__withBorder {
+
+  border: 1px solid #CA5A53 !important;
+}
+
+.DateInput_input__focused {
+  border-bottom: 2px solid #872434 !important;
+}
+
+.DateInput_input {
+  width: 80% !important;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight::before {
+  display: none !important;
+  border-right: 33px solid #872434!important;
+
+}
+
+.DateInput {
+  height: 30px !important;
+}
+.DateInput_input {
+  padding: 0 !important;
+  padding-left: 20px !important;
+  padding-top: 2px !important;
+}
