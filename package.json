@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@userfront/react": "^2.0.1",
+    "@userfront/toolkit": "^1.0.10"
+  }
+}
